@@ -244,6 +244,12 @@ h2{
 
 }
 
+.markets h1{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+
 .markets-col img /*image css to shape it*/
  {
     width: 100%;
@@ -291,6 +297,12 @@ h2{
     text-align: center;
     padding-top: 100px;
 }
+
+.facilities h1{
+    font-size: 36px;
+    font-weight: 600;
+
+}
 .facilities-col{
     flex-basis: 31%;
     border-radius: 10px;
@@ -306,4 +318,29 @@ h2{
 
 .facilities-col p{
     padding:0;
+}
+
+.facilities-col h2 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* testimonials */
+
+.testimonials{
+    
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.testimonials-col{
+   
+    flex-basis: 31%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+
+
 }
