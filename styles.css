@@ -207,5 +207,45 @@ nav .fa{
     box-sizing: border-box;
     transition:  0.3s;
 }
+h2{
+    text-align: center;
+    font-weight: 600;
+    margin:10px 0;
+}
+
+.produce-col:hover /*brings shadow effect on the produce area*/
+{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+
+}
+
+@media(max-width:700px) /*editing the column section to fit in small devices*/
+{
+.row{
+    flex-direction: column;
+}
+}
 
 
+/* markets */
+
+.markets{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.markets-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.markets-col img {
+    width: 100%;
+    
+    display: block;
+}
