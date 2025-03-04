@@ -168,4 +168,44 @@ nav .fa{
 
 }
 
+/* produce*/
+
+.produce /*takes produce texts to the center*/
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.produce h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+.produce p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.produce-col{
+    flex-basis: 31%;
+    background: #d3ffd1;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition:  0.3s;
+}
+
 
