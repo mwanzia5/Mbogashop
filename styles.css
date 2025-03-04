@@ -57,4 +57,60 @@ nav img  /* icon size */
     text-align: right;
 }
 
+.nav-links ul li  /*makes the nav link align horizontally*/
+{
+    list-style: none;
+    display: inline-block;
+    padding :8px 12px;
+    position:relative;
+
+}
+
+.nav-links ul li a  /* edits color of the nav links and removes the underlines*/
+{ 
+    color:#fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links ul li::after /*Underline after effects*/
+{
+    content: '';
+    width:0%;
+    height: 2px;
+    background :#90ee90;;
+    display: block;
+    margin: auto;
+    transition: width 0.3s;
+}
+
+.nav-links ul li:hover::after  /* changes underline color on hover*/
+{
+    width: 100%;
+}
+
+.text-box /*aligns the texts to the middle*/
+{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.text-box h1{
+    font-size: 60px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+
 
