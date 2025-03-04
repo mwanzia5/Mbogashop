@@ -78,7 +78,7 @@ nav img  /* icon size */
     content: '';
     width:0%;
     height: 2px;
-    background :#90ee90;;
+    background :#90ee90;
     display: block;
     margin: auto;
     transition: width 0.3s;
@@ -112,5 +112,60 @@ nav img  /* icon size */
 
 }
 
+.hero-btn  /* button css */
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border:1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover
+{
+    border:1px solid  #215721 ;
+    background:  #215721;
+    transition: 0.4s;
+}
+
+nav.fa{
+    display: none;
+}
+
+@media(max-width:700px) /*makes the website responsive in small devices*/
+{
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links {
+        position: fixed;/*prevents mobile menu from showing up*/
+        background: #215721;
+        height: 100vh;
+        width: 200px;
+        top:0;
+        right: -200px;/*makes menu stay hidden*/
+        text-align: left;
+        z-index: 2;
+        transition: right 0.3s;
+    }
+    nav.fa{
+        display: block;
+        font-size: 22px;
+        color: #fff;
+        margin: 10px;
+        cursor:pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+
+}
 
 
