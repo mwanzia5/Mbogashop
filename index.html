@@ -3,22 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/logo clean.png" type="image/x-icon"> <!---adds logo to browser icon-->
+    <link rel="icon" href="images/logo clean.png" type="image/x-icon"> 
     <title>Mbogashop</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="header">
         <nav>
-           <a href="index.html"><img src="images/logo clean.png"></a> <!---adds logo to homepage-->
+           <a href="index.html"><img src="images/logo clean.png" alt="Mbogashop Logo"></a> 
            <div class="nav-links" id="navlinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
-
-            
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
@@ -26,22 +24,28 @@
                 <li><a href="">Contact</a></li>
             </ul>
            </div>
-            
-           <i class="fa fa-bars"onclick="showMenu()" ></i>
-
+           <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
-            <h1>
-                Fresh at your availability
-            </h1>
-            <p>
-            Get the best vegetable experience
-            </p>
-            <a href="" class="hero-btn">Shop Now</a>
+            <h1>Fresh at your availability</h1>
+            <p>Get the best vegetable experience</p>
+            <a href="products.html" class="hero-btn">Shop Now</a>
         </div>
     </section>
 
-
+    <script>
+        var navlinks = document.getElementById('navlinks');
+        function showMenu() {
+            navlinks.style.right = '0';
+        }
+        function hideMenu() {
+            navlinks.style.right = '-200px';
+        }
+    </script>
+</body>
+</html>
+            
+            
 
 
 
