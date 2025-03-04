@@ -132,7 +132,7 @@ nav img  /* icon size */
     transition: 0.4s;
 }
 
-nav.fa{
+nav .fa{
     display: none;
 }
 
